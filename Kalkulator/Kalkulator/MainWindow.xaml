@@ -7,7 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="481,200,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="356,190,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.448,-0.445" Click="Button_Click_1"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="194,185,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="217,239,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Content=":" HorizontalAlignment="Left" Margin="356,239,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="194,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="338,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="281,154,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Liczba A" HorizontalAlignment="Left" Margin="194,84,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.34,-0.754"/>
+        <Label Content="Liczba B" HorizontalAlignment="Left" Margin="338,89,0,0" VerticalAlignment="Top"/>
+        <Label Content="Wynik" HorizontalAlignment="Left" Margin="194,154,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
