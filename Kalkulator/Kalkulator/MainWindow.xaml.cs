@@ -28,6 +28,7 @@ namespace Kalkulator
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             //dodawanie
+            wynikTextBox.Text = dodawanieodejmowanie.dodawanie(double.Parse(LiczbaATextBox.Text), double.Parse(LiczbaBTextBox.Text)).ToString();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
