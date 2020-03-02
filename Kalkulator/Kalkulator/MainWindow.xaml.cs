@@ -46,7 +46,7 @@ namespace Kalkulator
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             //dzielenie
-            wynikTextBox.Text = mnoznienidzieleniee.mnozenie(double.Parse(LiczbaATextBox.Text), double.Parse(LiczbaBTextBox.Text)).ToString();
+            wynikTextBox.Text = mnoznienidzieleniee.dzielenie(double.Parse(LiczbaATextBox.Text), double.Parse(LiczbaBTextBox.Text)).ToString();
         }
 
         private void LiczbaBTextBox_TextChanged(object sender, TextChangedEventArgs e)
